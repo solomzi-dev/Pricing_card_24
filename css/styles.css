@@ -14,3 +14,9 @@ body {
     align-items: center;
 }
 
+.flex-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
