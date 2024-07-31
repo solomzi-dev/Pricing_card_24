@@ -20,6 +20,24 @@ body {
     justify-content: space-between;
 }
 
+.btn {
+    border: 1px solid #3a4753;
+    border-radius: .4rem;
+    padding: 1.2rem 2.4rem;
+    font-weight: 500;
+    background: transparent;
+    display: inline-block;
+    width: 160px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.btn-blue {
+    background-color: #0ea2bd;
+    border: none;
+    color: #fff;
+}
+
 .pricing-box {
     border-radius: 10px;
     border: 1px solid black;
@@ -33,10 +51,16 @@ body {
     text-align: center;
     padding: 1.2rem;
     background: url('../images/pricing-bg.jpg') center center no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-plan {
     padding: 1rem 2rem;
+    width: 100%;
 }
 
 .pricing-plan .plan li {
