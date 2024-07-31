@@ -15,8 +15,31 @@ body {
 }
 
 .flex-container {
-    width: 800px;
+    width: 950px;
     display: flex;
     justify-content: space-between;
-    gap: 1.6rem;
+}
+
+.pricing-box {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.pricing-header {
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    background: url('../images/pricing-bg.jpg') center center no-repeat;
+}
+
+.pricing-plan {
+    padding: 1rem 2rem;
+}
+
+.pricing-plan .plan li {
+    margin-bottom: 1.3rem;
+    color: #3a4753;
 }
